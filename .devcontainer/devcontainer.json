@@ -2,11 +2,10 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"features": {
 		"ghcr.io/rocker-org/devcontainer-features/r-apt:0": {
-			"installDevTools": true,
 			"installREnv": true,
 			"installRMarkdown": true,
 			"useTesting": true,
-			"vscodeRSupport": "minimal"
+			"vscodeRSupport": "full"
 		},
 		"ghcr.io/rocker-org/devcontainer-features/r-history:0": {}
 	}
